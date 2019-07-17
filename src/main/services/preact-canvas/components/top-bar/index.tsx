@@ -116,7 +116,7 @@ export default class TopBar extends Component<Props, State> {
   }: Props) {
     return (
       <div class={topBar} role="banner">
-        <h1 class={title}>Proxx</h1>
+        <h1 class={title}>Sophie Sweeper</h1>
         <div class={squaresLeft} aria-label={gameStatusText(playMode)}>
           <Square class={squareIcon} />{" "}
           {toReveal!.toString().padStart(toRevealTotal!.toString().length, "0")}
