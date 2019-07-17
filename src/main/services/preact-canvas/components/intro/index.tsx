@@ -173,7 +173,7 @@ export default class Intro extends Component<Props, State> {
           class={startFormStyle}
           aria-label="game settings"
         >
-          <div class={settingsRowStyle}>
+          {/* <div class={settingsRowStyle}>
             <label class={labelStyle}>
               <span class={labelTextStyle}>Difficulty</span>
               <Arrow class={selectArrowStyle} />
@@ -216,7 +216,7 @@ export default class Intro extends Component<Props, State> {
             >
               Height
             </NumberField>
-          </div>
+              </div>
           <div class={settingsRowStyle}>
             <NumberField
               required
@@ -229,7 +229,7 @@ export default class Intro extends Component<Props, State> {
             >
               Black holes
             </NumberField>
-          </div>
+          </div> */}
           <div class={settingsRowStyle}>
             <button class={startButtonStyle}>
               {isFeaturePhone ? <span class={shortcutKeyStyle}>#</span> : ""}{" "}

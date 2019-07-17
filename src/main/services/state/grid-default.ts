@@ -30,12 +30,12 @@ export async function setGridDefault(
 export async function getGridDefault(): Promise<GridType> {
   // The prerenderer doesn't have IndexedDB
   if (prerender) {
-    return presets.easy;
+    return presets.hard;
   }
   const gridDefault = await get(key);
 
   if (!gridDefault) {
-    return presets.easy;
+    return presets.hard;
   }
 
   return gridDefault as GridType;
