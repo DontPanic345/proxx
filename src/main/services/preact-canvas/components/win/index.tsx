@@ -98,9 +98,9 @@ export default class End extends Component<Props, State> {
               </div>
             </div>
           </div>
+          <h2 class={winState}>{"Well done Sophie!"}</h2>
           <h2 class={winState}>
-            {time === bestTime ? "New high score!" : "You win!"}{" "}
-            <span class={gridNameStyle}>({gridName})</span>
+            {"Your next clue is ... yet to be determined."}
           </h2>
           <div class={scoreRow}>
             <div class={score}>
